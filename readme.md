@@ -3,7 +3,9 @@
 </p>
 
 
+
 <div align="center">
+
 
 # Yes酱-会发涩图的群管理机器人
 
@@ -13,7 +15,7 @@ _✨ 基于 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)，使用[OneBot](htt
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/badge/python-v3.7%2B-blue" alt="license">
+    <img src="https://img.shields.io/badge/python-v3.7%2B-green" alt="license">
   </a>
   <a href="https://github.com/Yang9999999/Go-CQHTTP-YesBot">
     <img src="https://img.shields.io/badge/release-v1.0-red" alt="release">
@@ -21,10 +23,11 @@ _✨ 基于 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)，使用[OneBot](htt
   <a href="https://github.com/howmanybots/onebot/blob/master/README.md">
     <img src="https://img.shields.io/badge/OneBot-v11-blue?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEUAAAAAAAADAwMHBwceHh4UFBQNDQ0ZGRkoKCgvLy8iIiLWSdWYAAAAAXRSTlMAQObYZgAAAQVJREFUSMftlM0RgjAQhV+0ATYK6i1Xb+iMd0qgBEqgBEuwBOxU2QDKsjvojQPvkJ/ZL5sXkgWrFirK4MibYUdE3OR2nEpuKz1/q8CdNxNQgthZCXYVLjyoDQftaKuniHHWRnPh2GCUetR2/9HsMAXyUT4/3UHwtQT2AggSCGKeSAsFnxBIOuAggdh3AKTL7pDuCyABcMb0aQP7aM4AnAbc/wHwA5D2wDHTTe56gIIOUA/4YYV2e1sg713PXdZJAuncdZMAGkAukU9OAn40O849+0ornPwT93rphWF0mgAbauUrEOthlX8Zu7P5A6kZyKCJy75hhw1Mgr9RAUvX7A3csGqZegEdniCx30c3agAAAABJRU5ErkJggg==" alt="cqhttp">
   </a>
-  <a href="https://github.com/Mrs4s/go-cqhttp/actions">
-    <img src="https://github.com/Mrs4s/go-cqhttp/workflows/CI/badge.svg" alt="action">
+  <a href="https://github.com/Yang9999999/Go-CQHTTP-YesBot/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/LICENSE-MIT-orange" alt="action">
   </a>
 </p>
+
 
 
 
@@ -46,15 +49,21 @@ Go-CQHTTP-YesBot 是采用python编写，**可拓展的**，**适合新手**的�
 
 ```json
 {
-    "path":"/C:\\Users\\86175\\Desktop\\mybot\\pic\\mao\\",    储存猫猫图的路径  Linux下"/root/mybot1/pic/mao/"
-	"ban_words":["科学上网","黑产","翻墙"],    禁言关键词
-    "apikey":"xxxxxxxxxxxxxxxx",    涩图API的apikey
-    "group":[123456789,987654321],     Yes酱管理的群号
-    "self_qq":"2013996860"       Yes酱的QQ号
+    "path":"/C:\\Users\\86175\\Desktop\\mybot\\pic\\mao\\",
+	"ban_words":["科学上网","黑产","翻墙"], 
+    "apikey":"xxxxxxxxxxxxxxxx",
+    "group":[123456789,987654321],
+    "self_qq":"2013996860"
 }
 ```
 
+分别为 
 
+- 储存猫猫图的路径  Linux下为"/root/mybot1/pic/mao/"
+- 禁言关键词
+- 涩图API的apikey
+- Yes酱管理的群号
+- Yes酱的QQ号
 
 ## API
 
@@ -65,3 +74,5 @@ Go-CQHTTP-YesBot 是采用python编写，**可拓展的**，**适合新手**的�
 用于python学习和交流
 
 ## 文档
+
+建设中...
